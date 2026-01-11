@@ -3,3 +3,4 @@ server/dist
 .vscode
 resource.syso
 *.exe
+!release/*.exe

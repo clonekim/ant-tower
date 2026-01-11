@@ -37,8 +37,8 @@ func Load() *Config {
 	flag.StringVar(&cfg.Port, "port", "5001", "Server Port")
 	flag.BoolVar(&cfg.UseConsole, "console", false, "Show console window (false to hide)")
 
-	flag.StringVar(&cfg.DBFile, "db", "twn.db", "SQLite Database path")
-	flag.StringVar(&cfg.LogFile, "logfile", "trace.log", "Log filename (saved in HomeDir/trace.log)")
+	flag.StringVar(&cfg.DBFile, "db", "tower.db", "SQLite Database path")
+	flag.StringVar(&cfg.LogFile, "logfile", "tower.log", "Log filename (saved in HomeDir/tower.log)")
 	flag.IntVar(&cfg.LogRetention, "retention", 30, "Log retention days")
 
 	flag.Parse()
