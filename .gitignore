@@ -1,0 +1,5 @@
+server/dist
+.idea
+.vscode
+resource.syso
+*.exe
